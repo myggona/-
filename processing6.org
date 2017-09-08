@@ -1,0 +1,19 @@
+void setup() {
+  size(1200, 600);
+}
+
+void draw() {
+  background(255);
+ 
+  fill(0, 0, 255);
+  ellipse(width/2, 300, width/3, 200);
+  
+  fill(255, 0, 0);
+  rectMode(CENTER);
+  rect(width/6, 300, width/6, 100);
+  rect(5*width/6, 300, width/6, 100);
+  
+  fill(0, 255, 0);
+  line(width, height, 0, 0);
+  line(0, height, width, 0);
+}
